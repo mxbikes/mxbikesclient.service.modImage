@@ -17,7 +17,7 @@ import (
 
 var (
 	logLevel       = getEnv("LOG_LEVEL", "info")
-	port           = getEnv("PORT", "localhost:4092")
+	port           = getEnv("PORT", ":4092")
 	minioHost      = getEnv("MINIO_HOST", "host.docker.internal:9001")
 	minioAccessKey = getEnv("MINIO_ACCESKEY", "fcR98JVhqBHP2laQ")
 	minioSecret    = getEnv("MINIO_SECRET", "7xMpT01cPq1O1QpWktOjBDjsgZdccPoL")
